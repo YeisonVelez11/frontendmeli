@@ -1,0 +1,30 @@
+@import "../../../styles/base/settings";
+
+.breadcrumbs {
+  color: $light-mid-grey;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container_breadcrumb {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  flex-wrap: wrap;
+}
+.space_breadcrums {
+  margin: 0px 10px;
+}
+
+@media (min-width: 1200px) {
+  .container_breadcrumb {
+    max-width: 1200px;
+    padding-left: 0px;
+  }
+}

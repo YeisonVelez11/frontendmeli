@@ -1,0 +1,15 @@
+@import "../../styles/base/settings";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+  background: $light-grey;
+  font-family: "Lato";
+}

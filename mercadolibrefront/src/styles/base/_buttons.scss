@@ -1,0 +1,23 @@
+@import "../../styles/base/settings";
+
+.button_primary {
+  background: $button-primary;
+  color: white;
+  width: 100%;
+  border-color: transparent;
+  transition: box-shadow 0.25s ease-out, background-color 0.2s ease-out;
+  box-shadow: 0 0 0 0 #fff;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 48px;
+  padding: 0 24px;
+  height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button_primary:active {
+  border-color: transparent;
+  background-color: #1f4e96;
+  color: #fff;
+}

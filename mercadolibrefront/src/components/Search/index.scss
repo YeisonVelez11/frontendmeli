@@ -1,0 +1,65 @@
+@import "../../styles/base/settings";
+
+.navbar {
+  background-color: $primary;
+  height: 54px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container_input_search {
+  flex-grow: 1;
+}
+
+.input_search {
+  font-size: 18px;
+  width: 100%;
+  padding: 7px 60px 9px 15px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 0 rgba(0, 0, 0, 0.2);
+  color: $dark-grey;
+  outline: none;
+}
+.input_search::placeholder {
+  color: $light-mid-grey;
+}
+
+.nav_logo {
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.container_search_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  background: $light-grey;
+  height: 37.5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media (min-width: 1200px) {
+  .container_searchbar {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 430px) {
+  .input_search::placeholder {
+    font-size: 15px;
+  }
+}
